@@ -1,0 +1,45 @@
+main {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  padding: 10px 0;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.image {
+  height: 100%;
+}
+
+.content {
+    display: flex;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.text-content span {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.price {
+    margin-top: 10px;
+    color: #00000099;
+}
+
+.remove {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}

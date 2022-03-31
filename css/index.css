@@ -1,0 +1,39 @@
+.slideshow {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.slideshow .start, .slideshow .end {
+  width: 50%;
+}
+
+.slideshow img {
+  width: 80%;
+}
+
+.slideshow .start {
+  display: flex;
+  justify-content: center;
+}
+
+.slideshow span {
+  display: block;
+  font-family: sans-serif;
+  color: #5e624a;
+  font-weight: bold;
+}
+
+.slideshow .name {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.slideshow .price {
+  font-size: 28px;
+  color: #cf3434;
+}
+
+.price s {
+  color: #898989;
+}
